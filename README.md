@@ -8,8 +8,8 @@ PHPTickler is a static analysis tool for scanning PHP codebases for common vulne
 - SQL Injection (SQLi)
 - Cross-Site Scripting (XSS)
 - Path Traversal
-- Remote Code Execution (RCE)
-
+- RCE
+  
 This tool aims to enhance the security of PHP applications by detecting and reporting insecure code patterns and configurations.
 
 ---
