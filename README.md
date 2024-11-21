@@ -1,5 +1,8 @@
 # PHPTickler - PHP Security Scanner
 
+![image](https://github.com/user-attachments/assets/66d46426-ca8b-4e15-ba9d-4111a4e95b93)
+
+
 PHPTickler is a static analysis tool for scanning PHP codebases for common vulnerabilities, including:
 
 - SQL Injection (SQLi)
