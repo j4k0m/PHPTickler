@@ -13,7 +13,7 @@ This tool aims to enhance the security of PHP applications by detecting and repo
 
 # Features
 
-- Scans for critical vulnerabilities like SQLi, XSS, Path Traversal, and RCE.
+- Scans for vulnerabilities like SQLi, XSS, Path Traversal, and RCE.
 - Supports customizable scanning rules and exclusions.
 - Generates detailed reports in HTML, JSON, or XML formats.
 - Multi-threaded scanning for improved performance.
