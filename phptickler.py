@@ -294,7 +294,7 @@ class StaticAnalysisScanner(VulnerabilityScanner):
                     ),
                     cwe_id="CWE-22",
                     references=["https://owasp.org/www-community/attacks/Path_Traversal"],
-                    owasp_category="A01:2021-Broken Access Control"
+                    owasp_category="A01:2021-Path Traversal"
                 )
                 vulnerabilities.append(vuln)
             vuln = self._check_file_upload_path_traversal(line, content)
@@ -432,7 +432,7 @@ class StaticAnalysisScanner(VulnerabilityScanner):
                     ),
                     cwe_id="CWE-22",
                     references=["https://owasp.org/www-community/attacks/Path_Traversal"],
-                    owasp_category="A01:2021-Broken Access Control"
+                    owasp_category="A01:2021-Path Traversal"
                 )
 
         return None
