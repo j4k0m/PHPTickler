@@ -258,7 +258,7 @@ class StaticAnalysisScanner(VulnerabilityScanner):
                 vulnerabilities.append(vuln)
 
             if vuln := self._check_vulnerability(line, i, self.rce_sinks, 
-                                               "Remote Code Execution", SeverityLevel.CRITICAL, 
+                                               "RCE", SeverityLevel.CRITICAL, 
                                                "CWE-78", variables):
                 vulnerabilities.append(vuln)
 
